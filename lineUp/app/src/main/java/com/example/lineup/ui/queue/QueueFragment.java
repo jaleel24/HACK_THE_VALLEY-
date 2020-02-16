@@ -21,8 +21,9 @@ public class QueueFragment extends Fragment {
                              ViewGroup container, Bundle savedInstanceState) {
         QueueViewModel =
                 ViewModelProviders.of(this).get(QueueViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_professors, container, false);
+        final View root = inflater.inflate(R.layout.fragment_professors, container, false);
 //        final Button button = root.findViewById(R.id.button_submit);
+        Button button = root.findViewById(R.id.add_button);
         return root;
     }
 
