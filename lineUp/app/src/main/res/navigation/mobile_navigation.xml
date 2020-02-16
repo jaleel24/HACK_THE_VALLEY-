@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--this xml file control the navgation for the side menu, ex: android:name -> is where they are pointing to-->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.lineup.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_queue"
+        android:name="com.example.lineup.ui.queue.QueueFragment"
+        android:label="@string/menu_queue"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_professor"
+        android:name="com.example.lineup.ui.professor.ProfessorFragment"
+        android:label="@string/menu_professors"
+        tools:layout="@layout/fragment_professors" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.example.lineup.ui.tools.ToolsFragment"
+        android:label="@string/menu_tools"
+        tools:layout="@layout/fragment_tools" />
+
+</navigation>
