@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ListView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
@@ -12,6 +13,9 @@ import androidx.lifecycle.ViewModelProviders;
 
 import com.example.lineup.R;
 import com.example.lineup.ui.queue.QueueViewModel;
+
+import java.util.List;
+import java.util.Queue;
 
 public class QueueFragment extends Fragment {
 
@@ -21,10 +25,10 @@ public class QueueFragment extends Fragment {
                              ViewGroup container, Bundle savedInstanceState) {
         QueueViewModel =
                 ViewModelProviders.of(this).get(QueueViewModel.class);
-        final View root = inflater.inflate(R.layout.fragment_professors, container, false);
-//        final Button button = root.findViewById(R.id.button_submit);
-        Button button = root.findViewById(R.id.add_button);
+        final View root = inflater.inflate(R.layout.fragment_queue, container, false);
         return root;
+
+       // Queue line =  R.id.list;
     }
 
 
