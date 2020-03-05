@@ -1,14 +1,14 @@
-**HACK_THE_VALLEY_4**
+# lineUp @ HACK_THE_VALLEY_4
 
-Problem:
+## Problem
 
 This application is all about the problem that every face while going on an appointment to meet an advisor or the professor,when you have to stand in the line.So the problem is time wasting. People specifically students have to waste a lot of time while waiting for their turn and this is not what we want for the students.Time is money. 
 
-Solution:
+## Solution
 
 Me With my team members Chris ,Jason, Abdullah and Frank , we are going to implement the Queue management system for the people who do not want to waste their time and save their precious time so they can be more productive.
 
-STEPS:
+## STEPS
 -Turn on the application
 -Main page with the office hours and advisors name will pop up
 -Select the advisor
